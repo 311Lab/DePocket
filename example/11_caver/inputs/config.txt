@@ -1,0 +1,18 @@
+# CAVER 3.0 Configuration File
+# All parameters are case-sensitive
+
+# Required Parameters
+number_of_approximating_balls = 12
+probe_radius = 1
+clustering_threshold = 5
+shell_depth = 4
+shell_radius = 3
+max_distance = 2
+cost_function_exponent = 0 
+max_number_of_tunnels = 1
+
+# Starting Point Configuration
+starting_point_coordinates = 38.67 22.90 19.67
+
+# Optional Parameters (default values shown)
+generate_trajectory = yes
