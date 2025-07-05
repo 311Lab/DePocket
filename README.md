@@ -25,20 +25,21 @@ project_root/
 
 The backbone generation code is  is derived from the https://github.com/swanss/peptide_design project.
 
-Input Setup:
+
+## Input Setup:
 
 1. Replace example/input_files/protein.pdb with your target protein PDB file. Keep the name as protein.pdb.
-2. 
-2.Replace partition names in all .sh files: change #SBATCH -p v6_384 to the actual partition on your HPC system.
 
-3.Modify the targetSel residues in example/1_generateSeeds/run_generateSeeds.sh to amino acids within ~20 Å of the active pocket
+2. Replace partition names in all .sh files: change #SBATCH -p v6_384 to the actual partition on your HPC system.
 
-4.Modify the active site center coordinates in both:5_backboneScreen/min_distance.py    11_caver/inputs/config.txt
+3. Modify the targetSel residues in example/1_generateSeeds/run_generateSeeds.sh to amino acids within ~20 Å of the active pocket
 
-5.In 10_InterfaceAnalyzer/run.sh, replace the -fixedchains parameter with the correct chain IDs of your target protein.
+4. Modify the active site center coordinates in both:5_backboneScreen/min_distance.py    11_caver/inputs/config.txt
+
+5. In 10_InterfaceAnalyzer/run.sh, replace the -fixedchains parameter with the correct chain IDs of your target protein.
 
 
-Step-by-Step Instructions:
+## Step-by-Step Instructions:
 
 Run example/1_generateSeeds/run_generateSeeds.sh
 
