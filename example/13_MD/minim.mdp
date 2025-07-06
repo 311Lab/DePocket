@@ -1,0 +1,23 @@
+; Parameters for energy minimization
+integrator       = steep           ; Algorithm: steepest descent minimization
+emtol            = 1000.0          ; Energy tolerance (kJ/mol)
+emstep           = 0.01            ; Maximum step size (nm)
+nsteps           = 50000           ; Maximum number of minimization steps
+
+; Output control
+nstenergy        = 10              ; Frequency to write energy information
+nstxout          = 10              ; Frequency to write coordinates
+
+; Neighbor searching
+cutoff-scheme    = Verlet          ; Verlet cutoff scheme
+ns_type          = grid            ; Method for neighbor list generation (grid-based)
+rlist            = 1.0             ; Neighbor list cutoff distance (nm)
+
+; Electrostatics and Van der Waals
+coulombtype      = PME             ; Particle Mesh Ewald for long-range electrostatics
+rcoulomb         = 1.0             ; Coulomb interaction cutoff distance (nm)
+rvdw             = 1.0             ; Van der Waals interaction cutoff distance (nm)
+
+; Periodic boundary conditions
+pbc              = xyz             ; Enable periodic boundary conditions in all directions
+
