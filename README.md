@@ -2,13 +2,15 @@
 A structure-guided de novo peptide design pipeline integrating TERM-based backbone generation, ProteinMPNN sequence design, and multi-criteria screening with MD refinement for substrate-blocking inhibitor discovery. This inhibitory peptide design project is applicable to peptides that bind to the active pocket of the target protein and exert inhibitory effects by blocking substrate entry into the active center, such as inhibitory peptides for XO.
 
 # Build Instructions
-Install Rosetta, Boost, Caver, and ProteinMPNN in the same directory as DePocket-main. Also, create a database/ folder to store single-chain protein databases. The directory structure should look like this:
+Install Mosaist, Rosetta, Boost, Caver, and ProteinMPNN in the same directory as DePocket-main. Also, create a database/ folder to store single-chain protein databases. The directory structure should look like this:
 
 project_root/
 
 ├── DePocket-main/
 
 ├── Rosetta/
+
+├── Mosaist/
 
 ├── boost_1_73_0/
 
