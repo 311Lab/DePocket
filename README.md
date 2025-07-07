@@ -23,7 +23,7 @@ project_root/
 
 # Main Pipeline
 
-The backbone generation code is  is derived from the https://github.com/swanss/peptide_design project.
+The backbone generation code is  is derived from the https://github.com/swanss/peptide_design project, including its Boost-based C++/Python binding. Please follow the build instructions in that repository to compile the shared library. Since Boost-based builds are not beginner-friendly, we are working on migrating to pybind11, which will be available in a future release.
 
 
 ## Input Setup:
