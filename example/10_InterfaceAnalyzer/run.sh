@@ -12,8 +12,8 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 
-SCORE_JD2=../../../../soft/rosetta_src_2019.07.60616_bundle/main/source/bin/score_jd2.mpi.linuxgccrelease
-INTERFACE_ANALYZER=../../../../soft/rosetta_src_2019.07.60616_bundle/main/source/bin/InterfaceAnalyzer.mpi.linuxgccrelease
+SCORE_JD2=path_to_your_rosetta_installation/main/source/bin/score_jd2.mpi.linuxgccrelease
+INTERFACE_ANALYZER=path_to_your_rosetta_installation/main/source/bin/InterfaceAnalyzer.mpi.linuxgccrelease
 
 
 PEPTIDE_DIR=../8_rosettaRelax/relaxed
