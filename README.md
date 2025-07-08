@@ -1,4 +1,4 @@
-# PepInhibitor
+# Depocket
 A structure-guided de novo peptide design pipeline integrating TERM-based backbone generation, ProteinMPNN sequence design, and multi-criteria screening with MD refinement for substrate-blocking inhibitor discovery. This inhibitory peptide design project is applicable to peptides that bind to the active pocket of the target protein and exert inhibitory effects by blocking substrate entry into the active center, such as inhibitory peptides for XO.
 
 # Build Instructions
